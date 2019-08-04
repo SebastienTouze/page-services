@@ -3,15 +3,35 @@
  * Date: 06/03/18
  */
 $listServices = [
+    ['img' => "img/hatlab.png",
+        'title' => "HatLab",
+        'desc' => "Site de présentation de l'association Hatlab (Wordpress)",
+        'linkSite' => "https://hatlab.fr",
+        'linkDetails' => ""],
+    ['img' => "img/sunlab.png",
+        'title' => "My Sunlab",
+        'desc' => "Site et blog du SunLab (Wordpress)",
+        'linkSite' => "https://mysunlab.org",
+        'linkDetails' => ""],
+    ['img' => "img/sqylab.jpg",
+        'title' => "SQYLab",
+        'desc' => "ite et blog du SQYLab (Wordpress)",
+        'linkSite' => "https://sqylab.org",
+        'linkDetails' => ""],
+    ['img' => "img/izylab.png",
+        'title' => "IzyLab",
+        'desc' => "Site et blog de l'IzyLab (Wordpress)",
+        'linkSite' => "https://www.izylab.org",
+        'linkDetails' => ""],
     ['img' => "img/nextcloud.jpg",
       'title' => "Nextcloud",
-      'desc' => "Service de stockage et partage de fichier et d'édition collaborative (tableur xlsx, texte docx et présentation pptx)",
+      'desc' => "Service de stockage et partage de fichiers, gestion des tâches en kanban",
       'linkSite' => "https://nextcloud.hatlab.fr",
       'linkDetails' => ""],
-    ['img' => "img/onlyoffice.jpg",
-      'title' => "OnlyOffice",
-      'desc' => "Édition collaborative en ligne de documents",
-      'linkSite' => "https://nextcloud.hatlab.fr",
+    ['img' => "img/gitlab.png",
+      'title' => "Gitlab",
+      'desc' => "Partage de code des participants au fablab",
+      'linkSite' => "https://gitlab.com/HATLab78",
       'linkDetails' => ""],
     ['img' => "img/pad.png",
       'title' => "Etherpad",
@@ -23,21 +43,6 @@ $listServices = [
       'desc' => "Wiki des projets des membres du Hatlab",
       'linkSite' => "https://wikifab.hatlab.fr",
       'linkDetails' => ""],
-    ['img' => "img/hatlab.png",
-        'title' => "HatLab",
-        'desc' => "Page de présentation du Hatlab",
-        'linkSite' => "https://hatlab.fr",
-        'linkDetails' => ""],
-    ['img' => "img/sunlab.png",
-        'title' => "My Sunlab",
-        'desc' => "Blog du SunLab (Wordpress)",
-        'linkSite' => "https://mysunlab.org",
-        'linkDetails' => ""],
-    ['img' => "img/sqylab.jpg",
-        'title' => "SQYLab",
-        'desc' => "Blog du SQYLab (Wordpress)",
-        'linkSite' => "https://sqylab.org",
-        'linkDetails' => ""],
     ['img' => "img/mailman.jpg",
       'title' => "Mailman",
       'desc' => "Gestion des listes de diffusion : inscription, dés-inscription, archive",
@@ -66,13 +71,6 @@ $listServices = [
 
     <nav class="light-blue lighten-1" role="navigation">
       <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">Association Hatlab</a>
-<!--        <ul class="right hide-on-med-and-down">-->
-<!--          <li><a href="#">Navbar Link</a></li>-->
-<!--        </ul>-->
-<!---->
-<!--        <ul id="nav-mobile" class="side-nav">-->
-<!--          <li><a href="#">Navbar Link</a></li>-->
-<!--        </ul>-->
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
